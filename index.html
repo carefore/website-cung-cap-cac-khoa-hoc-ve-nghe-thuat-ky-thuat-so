@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Khóa học Nghệ thuật Kỹ thuật số</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Đăng ký khóa học</h1>
+        <form id="courseForm" action="process.php" method="post">
+            <label for="courseName">Tên khóa học:</label>
+            <input type="text" id="courseName" name="courseName" required>
+
+            <label for="instructor">Người hướng dẫn:</label>
+            <input type="text" id="instructor" name="instructor" required>
+
+            <label for="description">Mô tả khóa học:</label>
+            <textarea id="description" name="description" required></textarea>
+
+            <button type="submit">Đăng ký</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
